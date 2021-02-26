@@ -7,13 +7,13 @@ Semester 2 | [STMIK *Citra Mandiri*](https://home.stmik-citra-mandiri.ac.id/)
 
 #### Compailer MinGW
 
-Download dan Istal compiler untuk C++ nya [link](https://sourceforge.net/projects/mingw/)
+Download dan Istal compiler untuk C++ nya [link download](https://sourceforge.net/projects/mingw/)
 > untuk windows, edit di sistem **environment variabel** bagian path copy gcc nya
 
 #### Sublime Text 3
 
 Untuk coding saya menggunakan text editor Sublime Text 3 [link download](https://www.sublimetext.com/)
-biar lancar untuk compile dan jalanin programnya kita buat *Build System* sublime textnya sendiri caranya
+biar lancar untuk compile dan jalanin programnya langsung ke cmd kita buat *Build System* sublime textnya sendiri caranya
 pergi ke menu **Tool>Build System>New Build System..** click untuk buat baru
 copy syntax dibawah
 ```shell
