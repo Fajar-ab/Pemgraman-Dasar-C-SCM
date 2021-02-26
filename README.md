@@ -32,7 +32,7 @@ copy syntax dibawah
  ]
 }
 ```
-simpan dengan nama C++ Compile.sublime-build
+simpan dengan nama **C++ Compile.sublime-build**
 
 tinggal di pakek, pilih sistem buildnya yang uda di buat tadi **C++ Compile** dan tekan di keyboard Ctrl+b programnya langsung jalan di cmd deh
 ## 🗂 Direktory Pemograman
