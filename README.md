@@ -8,7 +8,7 @@ Semester 2 | [STMIK *Citra Mandiri*](https://home.stmik-citra-mandiri.ac.id/)
 #### Compailer MinGW
 
 Download dan Istal compiler untuk C++ nya [link](https://sourceforge.net/projects/mingw/)
-| untuk windows, edit di sistem environment variabel bagian path copy gcc nya
+> untuk windows, edit di sistem environment variabel bagian path copy gcc nya
 
 ### Sublime Text 3
 
