@@ -3,6 +3,39 @@
 kumpulan hasil pembelajaran mata kuliah **Paket Pemograman II** dengan bahasa **C++**
 Semester 2 | [STMIK *Citra Mandiri*](https://home.stmik-citra-mandiri.ac.id/)
 
+## Pengcodean
+
+#### Compailer MinGW
+
+Download dan Istal compiler untuk C++ nya [link](https://sourceforge.net/projects/mingw/)
+| untuk windows, edit di sistem environment variabel bagian path copy gcc nya
+
+### Sublime Text 3
+
+Untuk coding saya menggunakan text editor Sublime Text [Download](https://www.sublimetext.com/)
+biar lancar untuk compile dan jalanin programnya kita buat Build System sublime textnya sendiri caranya
+pergi ke menu
+Tool>Build System>New Build System.. click untuk buat baru
+copy syntax dibawah
+```shell
+{
+ "cmd": ["g++", "-std=c++1y", "${file}", "-o", "${file_base_name}.exe", "&&", "start", "cmd", "/k", "${file_path}/${file_base_name}"],
+ "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+ "working_dir": "${file_path}",
+ "selector": "source.c, source.c++,source.cpp",
+ "shell": true,
+ "variants":
+ [
+   {
+     "name": "Run",
+     "cmd":["bash", "-c", "g++ -std=c++1y '${file}' -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'"]
+   }
+ ]
+}
+```
+simpan dengan nama C++ Compile.sublime-build
+
+tinggal di pakek, pilih sistem buildnya yang uda di buat tadi C++ Compile dan ketikkan di keyboard Ctrl+b programnya jalan di cmd deh
 ## 🗂 Direktory Pemograman
 * **Fungsi part_1**
 	- contoh_1
