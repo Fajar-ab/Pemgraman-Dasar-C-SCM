@@ -1,7 +1,7 @@
 # Pemograman Dasar C++ SCM
 
 Kumpulan hasil pembelajaran mata kuliah **Paket Pemograman II** dengan bahasa **C++**
-Semester 2 | [STMIK *Citra Mandiri*](https://home.stmik-citra-mandiri.ac.id/)
+Semester 2 | STMIK *Citra Mandiri
 
 ## Pengcodean
 
